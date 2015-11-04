@@ -46,6 +46,15 @@ The library was developed at the [Donnelly Centre](http://thedonnellycentre.utor
 
 
 
+## Packages
+
+ * npm : `npm install cytoscape`
+ * bower : `bower install cytoscape`
+ * spm : `spm install cytoscape`
+ * jspm : `jspm install npm:cytoscape`
+ * meteor : `meteor add cytoscape:cytoscape`
+
+
 ## Cytoscape.js & Cytoscape
 
 Though Cytoscape.js shares its name with [Cytoscape](http://www.cytoscape.org/), Cytoscape.js is not exactly the same as Cytoscape desktop.  Cytoscape.js is a JavaScript library for _programmers_.  It is not an app for end-users, and developers need to write code around Cytoscape.js to build graphcentric apps.
@@ -61,11 +70,11 @@ We are trying to make the two projects intercompatible as possible, and we do sh
 Funding for Cytoscape.js and Cytoscape is provided by NRNB (U.S. National Institutes of Health, National Center for Research Resources grant numbers P41 RR031228 and GM103504) and by NIH grants 2R01GM070743 and 1U41HG006623. The following organizations help develop Cytoscape:
 
 
-[ISB](http://www.systemsbiology.org) | 
-[UCSD](http://www.ucsd.edu) | 
-[MSKCC](http://cbio.mskcc.org) | 
-[Pasteur](http://www.pasteur.fr) | 
-[Agilent](http://www.agilent.com/) | 
+[ISB](http://www.systemsbiology.org) |
+[UCSD](http://www.ucsd.edu) |
+[MSKCC](http://cbio.mskcc.org) |
+[Pasteur](http://www.pasteur.fr) |
+[Agilent](http://www.agilent.com/) |
 [UCSF](http://www.ucsf.edu/) |
 [Unilever](http://www.unilever.com) |
 [Toronto](http://www.utoronto.ca) |

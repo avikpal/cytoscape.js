@@ -1,3 +1,5 @@
+/* jshint ignore:start */
+
 // normalised thread api functions for nodejs
 
 // expose message() for client code to use
@@ -17,7 +19,7 @@ function listen( fn ){
     } else {
       fn( m );
     }
-  });  
+  });
 }
 
 function resolve( v ){
@@ -34,6 +36,12 @@ function reject( v ){
 
 process.on('message', function( m ){
   if( typeof m === 'object' && m.$$eval ){
+    function _ref_( o ){
+      return eval( o );
+    }
+
     eval( m.$$eval );
   }
-}); 
+});
+
+/* jshint ignore:end */
